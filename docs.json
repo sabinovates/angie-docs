@@ -107,13 +107,13 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@angie-web.test"
+        "href": "mailto:hello@useangie.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Log in",
-      "href": "https://angie-web.test/login"
+      "href": "https://angie-web.laravel.cloud/login"
     }
   },
   "contextual": {
