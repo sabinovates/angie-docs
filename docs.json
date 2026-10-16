@@ -121,5 +121,6 @@
   },
   "footer": {
     "socials": {}
-  }
+  },
+  "description": "Angie is a multi-tenant platform that gives alumni associations, professional bodies, and community networks everything they need to run their organization online, without hiring a developer or stitching together five different tools. Each association gets its own branded subdomain with a public site, a member portal, and an administration console, all provisioned the moment they sign up.\n\nMembers join through a guided registration flow, get a digital membership card, pay dues and event fees through Paystack, hold a wallet they can fund, withdraw from, or send to other members, track their payment history and invoices, register for events with QR-code check-in, browse a categorized photo gallery, and stay current through announcements and meeting notes, all from one dashboard.\n\nAdministrators get a full back office: member management with CSV import/export and bulk actions, configurable membership types and groups, dues and fee assignment, donation campaigns, event and attendance tracking, a rich-text announcement composer, role-based permissions, audit logging, and branding controls for their public site, no code required.\n\nAngie's pricing scales with an association's size, from small chapters to large multi-thousand-member networks, with plans billed annually and enforced automatically against each tier's member limit. Associations outgrow a tier without losing data or access; an admin requests or completes an upgrade and the new limit applies immediately."
 }
