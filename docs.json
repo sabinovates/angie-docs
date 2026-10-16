@@ -12,9 +12,7 @@
     "pages": [
       {
         "group": "Introduction",
-        "pages": [
-          "index"
-        ]
+        "pages": ["index"]
       },
       {
         "group": "Getting Started",
@@ -89,21 +87,15 @@
       },
       {
         "group": "Pricing & Plans",
-        "pages": [
-          "pricing"
-        ]
+        "pages": ["pricing"]
       },
       {
         "group": "What's New",
-        "pages": [
-          "changelog"
-        ]
+        "pages": ["changelog"]
       },
       {
         "group": "FAQ",
-        "pages": [
-          "faq"
-        ]
+        "pages": ["faq"]
       }
     ]
   },
@@ -125,16 +117,7 @@
     }
   },
   "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
-    ]
+    "options": ["copy", "view", "chatgpt", "claude"]
   },
   "footer": {
     "socials": {}
