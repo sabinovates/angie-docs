@@ -1,55 +1,38 @@
-# Mintlify Starter Kit
+# Angie Docs
 
-Use the starter kit to get your docs deployed and ready to customize.
+User-facing documentation for **Angie** — a multi-tenant SaaS platform that lets alumni associations, professional groups, and community networks run their entire operation online: membership, dues, events, communication, and finance, each on its own branded subdomain.
 
-Click the green **Use this template** button at the top of this repo to copy the Mintlify starter kit. The starter kit contains examples with
+This repo holds the public documentation site, built with [Mintlify](https://mintlify.com) and published automatically to production on every push to `main`.
 
-- Guide pages
-- Navigation
-- Customizations
-- API reference pages
-- Use of popular components
+## What's covered
 
-**[Follow the full quickstart guide](https://starter.mintlify.com/quickstart)**
+The docs walk through every feature available to an association's members and its tenant administrators:
 
-## AI-assisted writing
+- **Getting Started** — signing up a new association, choosing a pricing plan, first login.
+- **Member Guide** — dashboard, profile and privacy, membership card, directory, notifications, account settings (password, 2FA, notification channels), bank accounts, wallet (deposit, withdraw, send), dues and payments, invoices and receipts, donations, events, announcements, meetings, and the photo gallery.
+- **Admin Guide** — dashboard, subscription and billing, member management (list, import/export, applications, bulk actions), membership types, groups and committees, events and attendance, gallery management, finance (dues, donations, projects, payments, invoices, refunds), communication (announcements, log, meetings), reports and audit log, users and roles, and every settings page (general, branding, membership, finance, communication, integrations, privacy, security, site management, leadership).
+- **Pricing & Plans** — the tiered, member-count-based pricing structure.
+- **What's New** — a running log of platform changes, written for association staff and members, not developers.
+- **FAQ** — answers to common questions.
 
-Set up your AI coding tool to work with Mintlify:
-
-```bash
-npx skills add https://mintlify.com/docs
-```
-
-This command installs Mintlify's documentation skill for your configured AI tools like Claude Code, Cursor, Windsurf, and others. The skill includes component reference, writing standards, and workflow guidance.
-
-See the [AI tools guides](/ai-tools) for tool-specific setup.
+Angie Control, the internal operations back-office used by the Angie team to manage associations across the platform, is deliberately out of scope — it's staff-only, not a feature an association or its members need documentation for.
 
 ## Development
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mint) to preview your documentation changes locally. To install, use the following command:
+Install the [Mintlify CLI](https://www.npmjs.com/package/mint):
 
-```
+```bash
 npm i -g mint
 ```
 
-Run the following command at the root of your documentation, where your `docs.json` is located:
+Run from the repo root, where `docs.json` lives:
 
-```
+```bash
 mint dev
 ```
 
-View your local preview at `http://localhost:3000`.
+Preview at `http://localhost:3000`.
 
 ## Publishing changes
 
-Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/settings/organization/github-app) to propagate changes from your repo to your deployment. Changes are deployed to production automatically after pushing to the default branch.
-
-## Need help?
-
-### Troubleshooting
-
-- If your dev environment isn't running: Run `mint update` to ensure you have the most recent version of the CLI.
-- If a page loads as a 404: Make sure you are running in a folder with a valid `docs.json`.
-
-### Resources
-- [Mintlify documentation](https://mintlify.com/docs)
+This repo is connected to Mintlify's GitHub app. Pushing to `main` deploys to production automatically — no separate build or deploy step.
