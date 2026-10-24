@@ -108,6 +108,10 @@
       {
         "label": "Support",
         "href": "mailto:hello@useangie.com"
+      },
+      {
+        "label": "Sign up",
+        "href": "https://useangie.com/get-started"
       }
     ],
     "primary": {
